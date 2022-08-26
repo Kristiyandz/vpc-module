@@ -25,7 +25,7 @@ jobs:
           tflint --init
           tflint -f compact
       - name: tfsec PR commenter
-        uses: aquasecurity/tfsec-pro-commenter-action@main
+        uses: aquasecurity/tfsec-pr-commenter-action@main
         with:
           soft_fail_commenter: true
           github_token: ${{ github.token }}
