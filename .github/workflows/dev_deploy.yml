@@ -3,8 +3,8 @@ name: Dev Deploy
 on:
   push:
     branches: main
-    pull_requests:
-    workflow_dispatch:
+  pull_requests:
+    branches: main
 
 jobs:
   terraform:
