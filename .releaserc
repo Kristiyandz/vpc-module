@@ -31,5 +31,5 @@
       ]
     ]
   ],
-  "extends": "@semantic-release/gitab-config"
+  "extends": "@semantic-release/gitlab-config"
 }
