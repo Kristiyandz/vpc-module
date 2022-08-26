@@ -1,0 +1,52 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  infracost_dev:
+    name: "Run Infracost Dev"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-2
+
+      - name: Install Terraform
+        uses: little-core-labs/install-terraform@v2.0.0
+        with:
+          version: 1.1.0
+
+      - name: Setup Terragrunt
+        uses: autero1/action-terragrunt@v1.1.0
+        with:
+          terragrunt_version: latest
+
+      - name: Plan Terragrunt
+        working-directory: dev/eu-west-2/dev
+        run: terragrunt run-all plan --terragrunt-non-interactive
+
+      - name: Setup Infracost
+        uses: infracost/actions/setup@v1
+        with:
+          api-key: ${{ secrets.INFRACOST_API_KEY }}
+
+      - name: Generate Infracost JSON
+        run: |
+          infracost configure set currency GBP
+          infracost breakdown --path . --format json --usage-file infracost-usage.yml --out-file /tmp/infracost.json
+        working-directory: dev/eu-west-2/dev
+
+      - name: Post Infracost comment
+        uses: infracost/actions/comment@v1
+        with:
+          path: /tmp/infracost.json
+          behavior: hide-and-new
