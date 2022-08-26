@@ -14,7 +14,7 @@
       "@semantic-release/changelog",
       "@semantic-release/github",
       [
-        "@semantic-release.exec",
+        "@semantic-release/exec",
         {
           "verifyReleaseCmd": "echo ${nextRelease.version} > version.txt"
         }
