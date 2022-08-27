@@ -6,9 +6,3 @@ module "vpc" {
   cidr = var.vpc_cidr
 
 }
-
-/*
-  TODO:
-  Make the hard coded values inputs
-  Consume into another project
-*/
