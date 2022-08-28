@@ -5,4 +5,6 @@ module "vpc" {
   name = local.name
   cidr = var.vpc_cidr
 
+  azs = local.availability_zones
+
 }
