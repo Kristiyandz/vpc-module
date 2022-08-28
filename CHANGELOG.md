@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/Kristiyandz/vpc-module/compare/v1.1.0...v1.2.0) (2022-08-28)
+
+
+### Features
+
+* add availability zones ([5ce2895](https://github.com/Kristiyandz/vpc-module/commit/5ce289582b1b00ccb928182d061876e0c70a0ebf))
+* include availability zones ([dd7bc33](https://github.com/Kristiyandz/vpc-module/commit/dd7bc3338ea119b5643026f7554cb05351f23e56))
+
 # [1.1.0](https://github.com/Kristiyandz/vpc-module/compare/v1.0.0...v1.1.0) (2022-08-26)
 
 
