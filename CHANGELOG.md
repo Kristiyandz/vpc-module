@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/Kristiyandz/vpc-module/compare/v1.3.2...v1.3.3) (2022-08-28)
+
+
+### Bug Fixes
+
+* uncomment data sources ([32ff203](https://github.com/Kristiyandz/vpc-module/commit/32ff2037a298faae88815d72169668fc0e2b7e31))
+
 ## [1.3.2](https://github.com/Kristiyandz/vpc-module/compare/v1.3.1...v1.3.2) (2022-08-28)
 
 
