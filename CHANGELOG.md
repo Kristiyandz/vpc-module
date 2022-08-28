@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/Kristiyandz/vpc-module/compare/v1.3.5...v1.3.6) (2022-08-28)
+
+
+### Bug Fixes
+
+* add missing data resource ([957905f](https://github.com/Kristiyandz/vpc-module/commit/957905f3ab5c126f67438097ec287437b2259dde))
+
 ## [1.3.5](https://github.com/Kristiyandz/vpc-module/compare/v1.3.4...v1.3.5) (2022-08-28)
 
 
