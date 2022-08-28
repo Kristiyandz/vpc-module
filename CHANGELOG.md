@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/Kristiyandz/vpc-module/compare/v1.3.4...v1.3.5) (2022-08-28)
+
+
+### Bug Fixes
+
+* add each.key ([8878375](https://github.com/Kristiyandz/vpc-module/commit/8878375ac055c1b241f9b70e226b218c2fb2abc1))
+
 ## [1.3.4](https://github.com/Kristiyandz/vpc-module/compare/v1.3.3...v1.3.4) (2022-08-28)
 
 
