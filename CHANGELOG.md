@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Kristiyandz/vpc-module/compare/v1.2.0...v1.3.0) (2022-08-28)
+
+
+### Features
+
+* add subnets support ([ee2f644](https://github.com/Kristiyandz/vpc-module/commit/ee2f644c770f3c75714fe9e332f3fb55d17a8f5d))
+
 # [1.2.0](https://github.com/Kristiyandz/vpc-module/compare/v1.1.0...v1.2.0) (2022-08-28)
 
 
