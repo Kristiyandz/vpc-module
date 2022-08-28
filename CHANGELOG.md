@@ -1,3 +1,11 @@
+## [1.3.4](https://github.com/Kristiyandz/vpc-module/compare/v1.3.3...v1.3.4) (2022-08-28)
+
+
+### Bug Fixes
+
+* add back toset func ([e5a5d1b](https://github.com/Kristiyandz/vpc-module/commit/e5a5d1b8d16db57168b2a99feab779b8249bb136))
+* add missing key ref ([05fb63b](https://github.com/Kristiyandz/vpc-module/commit/05fb63b016b57e6eff9b3ce86df5c389e95592cf))
+
 ## [1.3.3](https://github.com/Kristiyandz/vpc-module/compare/v1.3.2...v1.3.3) (2022-08-28)
 
 
