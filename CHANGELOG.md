@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Kristiyandz/vpc-module/compare/v1.3.0...v1.3.1) (2022-08-28)
+
+
+### Bug Fixes
+
+* remove duplicate data source ([6ecb202](https://github.com/Kristiyandz/vpc-module/commit/6ecb202f1e80136cfe20cdab40b6abd6d0bb291b))
+
 # [1.3.0](https://github.com/Kristiyandz/vpc-module/compare/v1.2.0...v1.3.0) (2022-08-28)
 
 
