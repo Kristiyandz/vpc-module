@@ -9,6 +9,6 @@ locals {
 
 data "aws_availability_zones" "available" {
   for_each = toset(data.aws_availability_zones.available.names)
-  name     = each.value
+  name     = data.aws_availability_zones.available[each.key].value
 }
 
