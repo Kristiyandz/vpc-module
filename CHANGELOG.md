@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/Kristiyandz/vpc-module/compare/v1.3.1...v1.3.2) (2022-08-28)
+
+
+### Bug Fixes
+
+* typo ([60fe2b9](https://github.com/Kristiyandz/vpc-module/commit/60fe2b96d71b1834cb4718b001196b31da00d193))
+
 ## [1.3.1](https://github.com/Kristiyandz/vpc-module/compare/v1.3.0...v1.3.1) (2022-08-28)
 
 
