@@ -8,7 +8,7 @@ locals {
 }
 
 data "aws_availability_zones" "available" {
-  for_each = data.aws_availability_zones.available
+  for_each = data.aws_availability_zones.available.names
   name     = each.value
 }
 
