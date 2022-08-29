@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/Kristiyandz/vpc-module/compare/v1.3.6...v1.3.7) (2022-08-28)
+
+
+### Bug Fixes
+
+* typo in for loop ([db9a622](https://github.com/Kristiyandz/vpc-module/commit/db9a622a0f49e4f7580be861569759fae5f2bc29))
+
 ## [1.3.6](https://github.com/Kristiyandz/vpc-module/compare/v1.3.5...v1.3.6) (2022-08-28)
 
 
