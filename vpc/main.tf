@@ -5,7 +5,10 @@ module "vpc" {
   name = local.name
   cidr = var.vpc_cidr
 
-  azs            = local.availability_zones
-  public_subnets = var.public_subnets
+  azs             = local.availability_zones
+  public_subnets  = var.public_subnets
+  private_subnets = var.private_subnets
+
+  tags = var.tags
 
 }
