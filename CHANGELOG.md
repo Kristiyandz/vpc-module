@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/Kristiyandz/vpc-module/compare/v1.3.7...v1.4.0) (2022-08-29)
+
+
+### Features
+
+* add private subnets ([cddc770](https://github.com/Kristiyandz/vpc-module/commit/cddc770bbc06dbcea2e28f1b8e6cb674d9c100e4))
+
 ## [1.3.7](https://github.com/Kristiyandz/vpc-module/compare/v1.3.6...v1.3.7) (2022-08-28)
 
 
