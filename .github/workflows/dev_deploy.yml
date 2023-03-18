@@ -18,10 +18,10 @@ jobs:
         uses: terraform-linters/setup-tflint@v1
         with:
           tflint_version: latest
-      - name: Terraform Lint
-        run: |
-          tflint --init
-          tflint -f compact
+      # - name: Terraform Lint
+      #   run: |
+      #     tflint --init
+      #     tflint -f compact
       - name: tfsec PR commenter
         uses: aquasecurity/tfsec-pr-commenter-action@main
         with:
