@@ -14,12 +14,10 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-
       - name: Setup TFLint
         uses: terraform-linters/setup-tflint@v1
         with:
           tflint_version: latest
-
       - name: Terraform Lint
         run: |
           tflint --init
@@ -29,17 +27,16 @@ jobs:
         with:
           soft_fail_commenter: true
           github_token: ${{ github.token }}
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v1
+      #   with:
+      #     node-version: "14.17.5"
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: "14.17.5"
+      # - name: Install Dependencies
+      #   working-directory: .
+      #   run: npm install
 
-      - name: Install Dependencies
-        working-directory: .
-        run: npm install
-
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+      # - name: Release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: npx semantic-release
